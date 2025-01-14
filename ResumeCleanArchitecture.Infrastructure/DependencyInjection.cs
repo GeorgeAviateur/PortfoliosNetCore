@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ResumeCleanArchitecture.Infrastructure.Persistence;
 using Microsoft.Extensions.DependencyInjection;
+using ResumeCleanArchitecture.Application.Interfaces;
+using ResumeCleanArchitecture.Infrastructure.Interfaces;
 
 namespace ResumeCleanArchitecture.Infrastructure
 {
@@ -10,7 +12,9 @@ namespace ResumeCleanArchitecture.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, string connectionString)
         {
             services.AddDbContext<ResumeDbContext>(options =>
-                options.UseSqlServer(connectionString));
+                options.UseNpgsql(connectionString));
+
+            services.AddScoped<IResumeRepository, ResumeRepository>();
             return services;
         }
     }

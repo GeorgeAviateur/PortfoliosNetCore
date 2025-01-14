@@ -7,7 +7,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents();
 //write extension methods to add something to server collections in other layers
 builder.Services.AddApplication();
-builder.Services.AddInfrastructure();
 
 
 var app = builder.Build();

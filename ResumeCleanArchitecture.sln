@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResumeCleanAtchitecture.Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResumeCleanAtchitecture.WebUI.Musician", "ResumeCleanAtchitecture.WebUI.Musician\ResumeCleanAtchitecture.WebUI.Musician.csproj", "{FD6E8C39-F3FA-49D5-B3CF-5BC39136DB74}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Progress", "Progress", "{D62ACF06-668F-4B70-AB39-C018C448C491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressRoute", "ProgressRoute\ProgressRoute.csproj", "{F9441DF0-14D1-40AD-B41E-D9E490124EA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{FD6E8C39-F3FA-49D5-B3CF-5BC39136DB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD6E8C39-F3FA-49D5-B3CF-5BC39136DB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD6E8C39-F3FA-49D5-B3CF-5BC39136DB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9441DF0-14D1-40AD-B41E-D9E490124EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9441DF0-14D1-40AD-B41E-D9E490124EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9441DF0-14D1-40AD-B41E-D9E490124EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9441DF0-14D1-40AD-B41E-D9E490124EA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +69,8 @@ Global
 		{82773E7D-9682-4A88-AF65-CEDF3D4B7AA6} = {0371E0B0-65A9-4019-A985-7B7A5A639EC6}
 		{C80EB028-6C76-4312-B317-244BD48F672D} = {82773E7D-9682-4A88-AF65-CEDF3D4B7AA6}
 		{FD6E8C39-F3FA-49D5-B3CF-5BC39136DB74} = {82773E7D-9682-4A88-AF65-CEDF3D4B7AA6}
+		{D62ACF06-668F-4B70-AB39-C018C448C491} = {0371E0B0-65A9-4019-A985-7B7A5A639EC6}
+		{F9441DF0-14D1-40AD-B41E-D9E490124EA5} = {D62ACF06-668F-4B70-AB39-C018C448C491}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1131D700-982A-4FB2-A6FA-18B5FE8311D2}
